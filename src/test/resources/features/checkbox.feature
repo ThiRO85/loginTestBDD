@@ -1,16 +1,16 @@
 @Login
 Feature: Test the login functionality on the Infojobs Page
 
-  Scenario: the user should be able to register their data
-    Given user is on the Infojobs page
+  Background:
+    Given user is on the "Infojobs" page
     When user clicks on the cookie button
+
+  Scenario: the user should be able to register their data
     And user enters their correct data
     And user clicks submit button
     Then user gets confirmation
 
   Scenario Outline: the user should be able to register their data
-    Given user is on the Infojobs page
-    When user clicks on the cookie button
     And user enters name <username>
     And user enters email <email>
     And user enters password <password>

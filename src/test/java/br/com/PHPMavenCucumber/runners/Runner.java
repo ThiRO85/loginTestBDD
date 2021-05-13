@@ -6,15 +6,15 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
 import org.testng.Assert;
 
-//@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "features",
+        features = "src/test/resources/features",
         glue = "br.com.PHPMavenCucumber.steps",
-        snippets = CucumberOptions.SnippetType.CAMELCASE,
-        dryRun = false,
+        //snippets = CucumberOptions.SnippetType.CAMELCASE,
+        //dryRun = false,
         tags = "@Login"
 )
-public class Runner extends AbstractTestNGCucumberTests {
+public class Runner { //extends AbstractTestNGCucumberTests {
 
     //@org.testng.annotations.Test(dataProvider = "myTest")
     //public void test() {

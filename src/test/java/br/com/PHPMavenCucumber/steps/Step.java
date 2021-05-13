@@ -9,12 +9,13 @@ import org.openqa.selenium.WebDriver;
 
 public class Step {
 
-    WebDriver driver;
-    Implementation implementation = new Implementation(driver);
+    //WebDriver driver;
+    //Implementation implementation = new Implementation(driver);
+    Implementation implementation = new Implementation();
 
-    @Given("^user is on the Infojobs page$")
-    public void userIsOnTheInfojobsPage() {
-        implementation.openInfojobsPage();
+    @Given("user is on the {string} page") // Don't utilize RegEx notation with variables!
+    public void userIsOnThePage(String string) {
+        implementation.openPage(string);
     }
 
     @When("^user clicks on the cookie button$")
