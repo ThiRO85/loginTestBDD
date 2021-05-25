@@ -1,15 +1,15 @@
-package br.com.PHPMavenCucumber.runners;
+package br.com.PHPMavenCucumber.runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
-import org.testng.Assert;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "br.com.PHPMavenCucumber.steps",
+        plugin = "pretty",
         //snippets = CucumberOptions.SnippetType.CAMELCASE,
         //dryRun = false,
         tags = "@Login"

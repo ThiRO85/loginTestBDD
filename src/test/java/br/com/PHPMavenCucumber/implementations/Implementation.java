@@ -1,8 +1,6 @@
 package br.com.PHPMavenCucumber.implementations;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utilities.DriverFactory;
 
 public class Implementation {
 
