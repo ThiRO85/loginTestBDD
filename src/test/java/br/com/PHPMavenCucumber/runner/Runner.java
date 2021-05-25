@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "br.com.PHPMavenCucumber.steps",
         plugin = "pretty",
+        monochrome = true,
         //snippets = CucumberOptions.SnippetType.CAMELCASE,
         //dryRun = false,
         tags = "@Login"
