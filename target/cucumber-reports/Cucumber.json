@@ -1,0 +1,620 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 95082804,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the \"Infojobs\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Infojobs\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Step.userIsOnThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 211058,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the cookie button",
+            "match": {
+              "location": "Step.userClicksOnTheCookieButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-25T13:35:45.004Z",
+        "line": 8,
+        "name": "the user should be able to register their data",
+        "description": "",
+        "id": "test-the-login-functionality-on-the-infojobs-page;the-user-should-be-able-to-register-their-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 521896,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters their correct data",
+            "match": {
+              "location": "Step.userEntersTheirCorrectData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149466,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "Step.userClicksSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135504,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user gets confirmation",
+            "match": {
+              "location": "Step.userGetsConfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 303857,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the \"Infojobs\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Infojobs\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Step.userIsOnThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139610,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the cookie button",
+            "match": {
+              "location": "Step.userClicksOnTheCookieButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-25T13:35:45.176Z",
+        "line": 24,
+        "name": "the user should be able to register their data",
+        "description": "",
+        "id": "test-the-login-functionality-on-the-infojobs-page;the-user-should-be-able-to-register-their-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 545712,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters name Mary Smith",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mary Smith",
+                  "offset": 17
+                }
+              ],
+              "location": "Step.userEntersName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250888,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters email mary@testmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mary@testmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Step.userEntersEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228304,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters password marypass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "marypass",
+                  "offset": 21
+                }
+              ],
+              "location": "Step.userEntersPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188474,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters address 06045-360",
+            "match": {
+              "arguments": [
+                {
+                  "val": "06045-360",
+                  "offset": 20
+                }
+              ],
+              "location": "Step.userEntersAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155214,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters function developer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "developer",
+                  "offset": 21
+                }
+              ],
+              "location": "Step.userEntersFunction(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120311,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "Step.userClicksSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152750,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user gets confirmation",
+            "match": {
+              "location": "Step.userGetsConfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 303037,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the \"Infojobs\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Infojobs\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Step.userIsOnThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121543,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the cookie button",
+            "match": {
+              "location": "Step.userClicksOnTheCookieButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-25T13:35:45.207Z",
+        "line": 25,
+        "name": "the user should be able to register their data",
+        "description": "",
+        "id": "test-the-login-functionality-on-the-infojobs-page;the-user-should-be-able-to-register-their-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 435256,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters name Alex Green",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alex Green",
+                  "offset": 17
+                }
+              ],
+              "location": "Step.userEntersName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129755,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters email alex@testmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alex@testmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Step.userEntersEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122775,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters password alexpass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alexpass",
+                  "offset": 21
+                }
+              ],
+              "location": "Step.userEntersPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122775,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters address 06045-370",
+            "match": {
+              "arguments": [
+                {
+                  "val": "06045-370",
+                  "offset": 20
+                }
+              ],
+              "location": "Step.userEntersAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 389677,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters function engineer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "engineer",
+                  "offset": 21
+                }
+              ],
+              "location": "Step.userEntersFunction(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200382,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "Step.userClicksSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166301,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user gets confirmation",
+            "match": {
+              "location": "Step.userGetsConfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1959061,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the \"Infojobs\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Infojobs\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Step.userIsOnThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175745,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the cookie button",
+            "match": {
+              "location": "Step.userClicksOnTheCookieButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-25T13:35:45.347Z",
+        "line": 26,
+        "name": "the user should be able to register their data",
+        "description": "",
+        "id": "test-the-login-functionality-on-the-infojobs-page;the-user-should-be-able-to-register-their-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 457018,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters name John Silva",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Silva",
+                  "offset": 17
+                }
+              ],
+              "location": "Step.userEntersName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133862,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters email john@testmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john@testmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Step.userEntersEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190527,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters password johnpass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnpass",
+                  "offset": 21
+                }
+              ],
+              "location": "Step.userEntersPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters address 06045-380",
+            "match": {
+              "arguments": [
+                {
+                  "val": "06045-380",
+                  "offset": 20
+                }
+              ],
+              "location": "Step.userEntersAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127702,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters function doctor",
+            "match": {
+              "arguments": [
+                {
+                  "val": "doctor",
+                  "offset": 21
+                }
+              ],
+              "location": "Step.userEntersFunction(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107172,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "Step.userClicksSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114562,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user gets confirmation",
+            "match": {
+              "location": "Step.userGetsConfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality on the Infojobs Page",
+    "description": "",
+    "id": "test-the-login-functionality-on-the-infojobs-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/checkbox.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
