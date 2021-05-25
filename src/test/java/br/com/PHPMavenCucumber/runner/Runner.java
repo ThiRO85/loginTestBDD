@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "br.com.PHPMavenCucumber.steps",
-        plugin = "pretty",
+        //plugin = "pretty",
+        plugin = "usage",
         monochrome = true,
         //snippets = CucumberOptions.SnippetType.CAMELCASE,
         //dryRun = false,
