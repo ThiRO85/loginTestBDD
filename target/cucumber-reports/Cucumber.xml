@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.124862">
+<testcase classname="Test the login functionality on the Infojobs Page" name="the user should be able to register their data" time="0.079269">
+<system-out><![CDATA[Given user is on the "Infojobs" page........................................passed
+When user clicks on the cookie button.......................................passed
+And user enters their correct data..........................................passed
+And user clicks submit button...............................................passed
+Then user gets confirmation.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the login functionality on the Infojobs Page" name="the user should be able to register their data 2" time="0.00475">
+<system-out><![CDATA[Given user is on the "Infojobs" page........................................passed
+When user clicks on the cookie button.......................................passed
+And user enters name Mary Smith.............................................passed
+And user enters email mary@testmail.com.....................................passed
+And user enters password marypass...........................................passed
+And user enters address 06045-360...........................................passed
+And user enters function developer..........................................passed
+And user clicks submit button...............................................passed
+Then user gets confirmation.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the login functionality on the Infojobs Page" name="the user should be able to register their data 3" time="0.012422">
+<system-out><![CDATA[Given user is on the "Infojobs" page........................................passed
+When user clicks on the cookie button.......................................passed
+And user enters name Alex Green.............................................passed
+And user enters email alex@testmail.com.....................................passed
+And user enters password alexpass...........................................passed
+And user enters address 06045-370...........................................passed
+And user enters function engineer...........................................passed
+And user clicks submit button...............................................passed
+Then user gets confirmation.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the login functionality on the Infojobs Page" name="the user should be able to register their data 4" time="0.028421">
+<system-out><![CDATA[Given user is on the "Infojobs" page........................................passed
+When user clicks on the cookie button.......................................passed
+And user enters name John Silva.............................................passed
+And user enters email john@testmail.com.....................................passed
+And user enters password johnpass...........................................passed
+And user enters address 06045-380...........................................passed
+And user enters function doctor.............................................passed
+And user clicks submit button...............................................passed
+Then user gets confirmation.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
