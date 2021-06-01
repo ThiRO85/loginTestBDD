@@ -12,14 +12,12 @@ public class Implementation {
     }
 
     //public Implementation(WebDriver driver) {
-        //this.driver = driver;
-        //PageFactory.initElements(driver, this);
+    //this.driver = driver;
+    //PageFactory.initElements(driver, this);
     //}
 
     public void openPage(String string) {
         System.out.println("User is on the " + string + " page");
-        //driver = DriverFactory.open();
-        //driver.get(FileReaderManager.getInstance().getConfigReader().getUrl());
     }
 
     public void clickOnTheCookieButton() {
@@ -73,7 +71,6 @@ public class Implementation {
         //String conf = driver.findElement(By.xpath("/html/body/main/div/div/div/div[1]")).getText();
         //System.out.println("CONFIRMATION: " + conf);
         //Assert.assertTrue(conf.contains("Candidatos"));
-        //driver.quit();
     }
 }
 
