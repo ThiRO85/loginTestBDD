@@ -1,6 +1,8 @@
-package br.com.PHPMavenCucumber.implementations;
+package br.com.PHPMavenCucumber.steps;
 
 import org.openqa.selenium.WebDriver;
+import utilities.DriverFactory;
+import utilities.FileReaderManager;
 
 public class Implementation {
 
@@ -17,7 +19,7 @@ public class Implementation {
     public void openPage(String string) {
         System.out.println("User is on the " + string + " page");
         //driver = DriverFactory.open();
-        //driver.get("https://login.infojobs.com.br/cadastrar-curriculo.aspx");
+        //driver.get(FileReaderManager.getInstance().getConfigReader().getUrl());
     }
 
     public void clickOnTheCookieButton() {

@@ -7,14 +7,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class DriverFactory {
 
-    static WebDriver driver;
-    //public static ChromeOptions options = new ChromeOptions();
+    private static WebDriver driver;
+    private static ChromeOptions options = new ChromeOptions();
 
     public static WebDriver open() {
-        //options.setHeadless(true);
+        options.setHeadless(true);
         WebDriverManager.chromedriver().setup();
-        //driver = new ChromeDriver(options);
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         return driver;
     }
 }

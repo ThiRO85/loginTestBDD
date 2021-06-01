@@ -1,31 +1,28 @@
 package br.com.PHPMavenCucumber.runner;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
-import org.junit.runner.RunWith;
+import io.cucumber.testng.CucumberOptions;
+//import com.cucumber.listener.Reporter;
 
-@RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "br.com.PHPMavenCucumber.steps",
-        //plugin = "pretty",
+        //plugin = "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         //plugin = "usage",
-        //plugin = { "pretty", "html:target/cucumber-reports" },
-        //plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
-        //plugin = { "pretty", "junit:target/cucumber-reports/Cucumber.xml" },
-        plugin = { "pretty", "html:target/cucumber-reports", "json:target/cucumber-reports/Cucumber.json", "junit:target/cucumber-reports/Cucumber.xml" },
+        //plugin = { "pretty", "html:target/cucumber-reports", "json:target/cucumber-reports/Cucumber.json", "junit:target/cucumber-reports/Cucumber.xml" },
         monochrome = true,
         //snippets = CucumberOptions.SnippetType.CAMELCASE,
         //dryRun = false,
         tags = "@Login"
 )
-public class Runner { //extends AbstractTestNGCucumberTests {
+public class Runner extends AbstractTestNGCucumberTests {
 
-    //@org.testng.annotations.Test(dataProvider = "myTest")
-    //public void test() {
-        //Assert.assertTrue(true);
+    //@AfterClass
+    //public static void writeExtentReport() {
+        //Reporter.loadXMLConfig(new File(FileReaderManager.getInstance().getConfigReader().getReportConfigPath()));
     //}
 }
+
+
 
 

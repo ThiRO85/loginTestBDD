@@ -1,12 +1,11 @@
 package br.com.PHPMavenCucumber.steps;
 
-import br.com.PHPMavenCucumber.implementations.Implementation;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class Step {
+public class Steps {
 
     //WebDriver driver;
     //Implementation implementation = new Implementation(driver);
